@@ -69,6 +69,7 @@ body{
 	border: 0.0625em solid var(--clr-neutral-950);
 	box-shadow: 0.5em 0.5em 0 0 hsl(from var(--clr-grey-950) h s l);
 
+	/* check title is hover ?  */
 	&:has(.title:hover){
 		box-shadow: 1em 1em 0 0 hsl(from var(--clr-grey-950) h s l);
 		transition: box-shadow 0.25s;
