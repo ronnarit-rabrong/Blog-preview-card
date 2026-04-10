@@ -102,6 +102,7 @@ body{
 		}
 
 		& .date{
+			display: block;
 			margin: 0.75rem 0 0 0;
 			font-size: var(--fs-300);
 			color: var(--clr-neutral-950);
@@ -139,6 +140,7 @@ body{
 
 		& .name{
 			font-size: 0.875rem;
+			font-weight: 800;
 		}
 	}
 }
