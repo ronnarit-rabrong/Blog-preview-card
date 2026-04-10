@@ -112,11 +112,15 @@ body{
 			margin: 0.75rem 0 0 0;
 			font-size: var(--fs-700);
 			font-weight: 800;
-			color: var(--clr-neutral-950);
 
-			&:hover{
-				cursor: pointer;
-				color: var(--clr-primary);
+			& a{
+				text-decoration: none;
+				color: var(--clr-neutral-950);
+
+				&:hover{
+					cursor: pointer;
+					color: var(--clr-primary);
+				}
 			}
 		}
 
