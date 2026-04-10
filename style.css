@@ -69,7 +69,6 @@ body{
 .card{
 	display: block;
 	text-decoration: none;
-	max-height: 32.625rem;
 	width: min(100%, 24rem);
 	background: var(--clr-secondary);
 	color: unset;
