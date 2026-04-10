@@ -52,6 +52,12 @@ body{
 	background: var(--clr-primary);
 }
 
+@media (prefers-reduced-motion: reduce) {
+	.card {
+		transition: none;
+	}
+}
+
 .main-site{
 	min-height: 100svh;
 	padding: 0 1.5em 0 1.5em;
