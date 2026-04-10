@@ -61,9 +61,12 @@ body{
 
 /* card component */
 .card{
+	display: block;
+	text-decoration: none;
 	max-height: 522px;
 	width: min(100%, 24rem);
 	background: var(--clr-secondary);
+	color: unset;
 	padding: 1.5em 1.5em 1.5em 1.5em;
 	border-radius: 1.25em;
 	border: 0.0625em solid var(--clr-neutral-950);
